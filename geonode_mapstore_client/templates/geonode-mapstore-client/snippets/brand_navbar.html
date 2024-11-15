@@ -32,8 +32,10 @@
                         <a href="/">
                             {% if custom_theme.logo and custom_theme.logo.url %}
                                 <img src="{{ custom_theme.logo.url }}">
+                                <img src="/static/imagenes/Logo_TI.png">
                             {% else %}
-                                <img src="{% block logo_src %}/static/mapstore/img/geonode-logo.svg{% endblock %}">
+                                <!--<img src="{% block logo_src %}/static/mapstore/img/geonode-logo.svg{% endblock %}">-->
+                                <img src="/static/imagenes/Logo_TI.png">
                             {% endif %}
                         </a>
                     </li>
