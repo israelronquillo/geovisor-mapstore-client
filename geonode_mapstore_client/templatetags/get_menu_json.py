@@ -36,31 +36,37 @@ def get_base_left_topbar_menu():
         {
             "type": "link",
             "href": "/catalogue/#/all",
-            "label": "All resources",
+            # "label": "All resources",
+            "label": "Todos los recursos",
         },
         {
             "type": "link",
             "href": "/catalogue/#/datasets",
-            "label": "Datasets",
+            # "label": "Datasets",
+            "label": "Conjunto de datos",
         },
         {
             "type": "link", 
             "href": "/catalogue/#/maps", 
-            "label": "Maps"
+            # "label": "Maps"
+            "label": "Mapas"
         },
         {
             "type": "link",
             "href": "/catalogue/#/documents",
-            "label": "Documents",
+            # "label": "Documents",
+            "label": "Documentos",
         },
         {
             "type": "link",
             "href": "/catalogue/#/geostories",
-            "label": "GeoStories",
+            # "label": "GeoStories",
+            "label": "Historias geográficas",
         },
         {
             "type": "link",
             "href": "/catalogue/#/dashboards",
+            # "label": "Dashboards",
             "label": "Dashboards",
         }
     ]
