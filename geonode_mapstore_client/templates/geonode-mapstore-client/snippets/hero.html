@@ -21,7 +21,7 @@
     <div class="jumbotron">
         <div class="gn-hero-description">
             {% if not custom_theme.jumbotron_welcome_hide %}
-            <div style="background-image: url('/static/imagenes/banner_1.png'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 260px; padding: 50px 20px; text-align: center;">
+            <div style="background-image: url('/static/imagenes/banner_geonode.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 260px; padding: 50px 20px; text-align: center;">
                 {% with jumbotron_welcome_title=custom_theme.jumbotron_welcome_title|default:""|template_trans %}
                 <h1>{% trans jumbotron_welcome_title %}</h1>
                 {% endwith %}
